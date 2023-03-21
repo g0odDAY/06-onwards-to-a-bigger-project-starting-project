@@ -5,7 +5,7 @@ import Head from "next/head";
 const MeetupDetails = (props)=>{
     return <>
         <Head>
-            <title>{props.meetupData.title}!!</title>
+            <title>{props.meetupData.title}!!!</title>
             <meta name="description" content={props.meetupData.description}/>
         </Head>
         <MeetupDetail
